@@ -10,7 +10,8 @@ class Employee:
             Employee.__empCount += 1
 
     def getCount(self):
-        print("this is a test!")
+        print(f"We should return {Employee.__empCount}, but we are breaking \
+            this test and returning 2 instead")
         # return Employee.__empCount
         return "2"
 
