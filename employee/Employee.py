@@ -11,7 +11,8 @@ class Employee:
 
     def getCount(self):
         print("this is a test!")
-        return Employee.__empCount
+        # return Employee.__empCount
+        return "2"
 
     def getSalary(self):
         return self.__salary
