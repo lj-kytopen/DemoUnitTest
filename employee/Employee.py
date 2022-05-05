@@ -10,7 +10,7 @@ class Employee:
             Employee.__empCount += 1
 
     def getCount(self):
-        # print(f"We should return {Employee.__empCount} as an integer, but we are breaking this test and returning 2 as a string instead")
+        print(f"We should return {Employee.__empCount} as an integer, but we are breaking this test and returning 2 as a string instead")
         return Employee.__empCount
         # return "2"
 
