@@ -11,8 +11,8 @@ class Employee:
 
     def getCount(self):
         print(f"We should return {Employee.__empCount} as an integer, but we are breaking this test and returning 2 as a string instead")
-        return Employee.__empCount
-        # return "2"
+        # return Employee.__empCount
+        return "2"
 
     def getSalary(self):
         return self.__salary
